@@ -1,0 +1,77 @@
+@charset "utf-8";
+
+ /* ヘッダー */
+ div#header {
+   position: fixed; 
+   width: 100%; 
+   height: 46px; 
+   background: #F8F8F8; 
+   border-bottom: solid 1px #EEE; 
+ }
+
+ div#headerArea {
+   margin: 0 auto; 
+   width: 980px; 
+ }
+
+ /* ヘッダーロゴ */
+ div#header_logo {
+   float: left; 
+   padding: 12px 0 0 0; 
+   font-weight: bold; 
+   color: #777777; 
+ }
+ 
+ /*　グローバルナビゲーション*/
+ div#gnavi {
+    float: right;
+    margin: 12px 0 0 0;
+    text-align: right;
+ }
+ 
+ div#gnavi ul {
+    clear: both;
+ }
+ 
+ div#gnavi li {
+    padding: 0 0 0 20px;
+    float: left;
+ }
+ 
+ h1{
+     margin-bottom: 10px;
+     font-size: 182%;
+     font-weight: bold;
+     line-height: 2.0em;
+     color: #FFF;
+ }
+ 
+ /*　メインパネル */
+ 
+ div#main_panel {
+     padding: 46px 0 0 0;
+     height: 400px;
+     background: url(../img/main-bg.jpg) no-repeat center center;
+     background-size: cover;
+ }
+ 
+ div#main_panelArea {
+     margin: 0 auto;
+     padding: 90px 0 0 0;
+     width: 980px;
+ }
+ 
+ p {
+     padding: 10px 0 ;
+ }
+ div#main_panelArea p{
+     color: #FFF;
+ }
+ 
+ h2{
+   margin-bottom: 20px;
+   font-size: 180%;
+   font-weight: bold;
+   line-height: 2.0em;
+   text-align: center;
+ }
