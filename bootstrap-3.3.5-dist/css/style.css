@@ -75,3 +75,16 @@
    line-height: 2.0em;
    text-align: center;
  }
+ 
+ h3{
+   text-align: center;
+ }
+div.contentArea .main {
+   margin-bottom: 10px;
+   font-size: 100%;
+   font-weight: bold;
+   line-height: 2.0em;
+   text-align: center;
+   background-color: #DDFFFF;
+   background: url(../img/matinami.jpg) no-repeat center center;
+ }
